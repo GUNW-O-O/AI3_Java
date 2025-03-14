@@ -15,6 +15,7 @@ public class Main {
 		else if (a>b) {
 			System.out.print(a);
 		}
+		sc.close();
 	}
 
 }

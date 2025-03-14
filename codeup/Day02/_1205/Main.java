@@ -28,6 +28,6 @@ public class Main {
 			}
 		}
 		System.out.printf("%f" ,max);
-		
+		sc.close();
 	}
 }

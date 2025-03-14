@@ -30,9 +30,9 @@ public class Main {
         int count = 0;
         int bonus = 0;
         
-        for (int i =0; i<=6; i++ ) {
+        for (int i =0; i<lotto.length-1; i++ ) {
         	for (int j : hyeji) {
-				if(i==j) {
+				if(lotto[i]==j) {
 					count++;
 				}
 			}
@@ -58,7 +58,11 @@ public class Main {
 		default:System.out.print(0);
 			break;
 		}
-        if (count==6) return;
+        if (count==6) {
+			sc.close();
+			return;
+		}
+		
         switch (count+bonus) {
 		case 6:
 			System.out.print(2);
@@ -67,8 +71,8 @@ public class Main {
 		default:
 			break;
 		}
-       
-       
+    //    System.out.println(count + " " + bonus);
+       sc.close();
        
 	}
 }

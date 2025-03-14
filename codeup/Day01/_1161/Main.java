@@ -38,7 +38,7 @@ public class Main {
 		else {
 			System.out.print("홀수");
 		}
-		
+		sc.close();
 	}
 
 }

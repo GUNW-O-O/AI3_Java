@@ -32,7 +32,7 @@ public class Main {
             System.out.printf("%.2f", result);
 		 }
 		
-		
+		sc.close();
 	}
 
 }

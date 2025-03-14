@@ -11,6 +11,6 @@ public class Main {
 			System.out.println("win");
 		}else System.out.println("lose");
 		
-		
+		sc.close();
 	}
 }
