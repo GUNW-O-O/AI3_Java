@@ -37,6 +37,7 @@ public class Main {
         if (count==5) {
 			if(count+bonus==6) {
 				System.out.print(2);
+				sc.close();
 				return;
 			}
 		}
@@ -54,11 +55,7 @@ public class Main {
 		default:System.out.print(0);
 			break;
 		}
-        if (count==6) {
-			sc.close();
-			return;
-		}
-		
+        
        sc.close();
        
 	}
