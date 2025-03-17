@@ -1,4 +1,5 @@
 package Day06.Review;
+import java.util.Arrays;
 
 public class Ex04_Lotto {
 	public static void main(String[] args) {
@@ -39,6 +40,12 @@ public class Ex04_Lotto {
 		System.out.println();
 		
 		//작은수부터 뽑아보기
+		Arrays.sort(lotto);
+		for (int i : lotto) {
+			System.out.print(i + " ");
+		}
+		
+		
 	}
 	
 }
