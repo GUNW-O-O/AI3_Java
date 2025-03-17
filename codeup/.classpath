@@ -9,6 +9,6 @@
 	<classpathentry kind="src" path="Day01"/>
 	<classpathentry kind="src" path="Day02"/>
 	<classpathentry kind="src" path="Day03"/>
-	<classpathentry excluding="src/|Day01/|Day02/|Day03/" kind="src" path=""/>
+	<classpathentry kind="src" path="Study"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

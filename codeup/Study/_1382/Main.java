@@ -1,4 +1,4 @@
-package Home._1382;
+package _1382;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Home._1405;
+package _1405;
 
 import java.util.Scanner;
 
