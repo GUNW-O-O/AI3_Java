@@ -49,7 +49,8 @@ public class Main {
 			case 3: // 게시글 조회
 					System.out.print("조회할 번호를 입력 : ");
 					int input = sc.nextInt();
-					input = sc.nextInt();
+					menuNo = sc.nextInt();
+					boardInterface.read(menuNo);
 					
 			default:
 			}

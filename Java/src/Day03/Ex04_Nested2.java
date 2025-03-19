@@ -37,7 +37,7 @@ public class Ex04_Nested2 {
 //			System.out.println("합격");
 //		}else System.out.println("불합격");
 //		
-//		sc.close();
+		sc.close();
 		}
 		
 	}
