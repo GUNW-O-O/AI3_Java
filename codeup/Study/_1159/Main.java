@@ -8,7 +8,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		
-		if (a>=50 || a<=70) {
+		if (a>=50 && a<=70) {
 			System.out.print("win");
 		}else if (a%6 ==0) System.out.print("win");
 		else System.out.print("lose");
