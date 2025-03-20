@@ -81,7 +81,9 @@ public class Main {
 					if (result ) System.out.println("게시글 삭제 완료!");
 					else System.out.println("게시글 삭제 실패!");
 					break;
+					
 			}
+					
 		} while (true);
 		System.out.println("프로그램을 종료합니다...");
 		sc.close();
