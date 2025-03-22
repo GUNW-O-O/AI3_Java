@@ -21,5 +21,6 @@ public class Main {
 			System.out.print("대박");
 		}
 		else System.out.print("그럭저럭");
+		sc.close();
 	}
 }

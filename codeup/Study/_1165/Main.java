@@ -9,7 +9,6 @@ public class Main {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		int goal = b;
 		int end = 0;
 		int time = 90 - a; //4
 		
