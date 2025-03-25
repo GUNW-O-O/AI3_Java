@@ -19,6 +19,6 @@ public class Main {
 		}
 		
 		// 02 13 24 35 46 57
-		
+		sc.close();
 	}
 }

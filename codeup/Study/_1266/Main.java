@@ -14,6 +14,6 @@ public class Main {
 		}
 		
 		System.out.println(sum);
-		
+		sc.close();
 	}
 }
