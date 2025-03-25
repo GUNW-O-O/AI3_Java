@@ -26,14 +26,14 @@ public class Main {
 		 int firstDigit = Character.getNumericValue(first);
 		 
 		 if (sajuStr.length() >= 4) {
-			 if (second % 2 ==0) System.out.print("ëŒ€ë°•");
-			 else System.out.print("ê·¸ëŸ­ì €ëŸ­");
+			 if (secondDigit % 2 ==0) System.out.print("´ë¹Ú");
+			 else System.out.print("±×·°Àú·°");
 		 }
 		 else if (sajuStr.length() <= 3 ) {
-			 if (first % 2 ==0) System.out.print("ëŒ€ë°•");
-			 else System.out.print("ê·¸ëŸ­ì €ëŸ­");
+			 if (firstDigit % 2 ==0) System.out.print("´ë¹Ú");
+			 else System.out.print("±×·°Àú·°");
 		 }
 		 
-		 
+		 sc.close();
 	}
 }
