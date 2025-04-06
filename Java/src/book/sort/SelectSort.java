@@ -18,7 +18,7 @@ boolean sw = false;
                 if ( arr[i] > arr[j+1] ) {
                     temp = arr[i];
                     if ( arr[j+1] < arr[minind] ) {
-                        minind = j + 1;
+                        minind = j+1;
                     }
                     sw = true;
                 }
