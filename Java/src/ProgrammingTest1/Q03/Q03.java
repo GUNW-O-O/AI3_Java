@@ -1,4 +1,4 @@
-package ProgrammingTest1;
+package ProgrammingTest1.Q03;
 	
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,74 +7,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-
-
-class Student {
-	int no;
-	String name;
-	int score;
-	String major;
-	
-	
-	public Student() {
-		this(0, "", 0, "");
-	}
-
-	public Student(int no, String name, int score, String major) {
-		this.no = no;
-		this.name = name;
-		this.score = score;
-		this.major = major;
-	}
-
-	public int getNo() {
-		return this.no;
-	}
-
-	public void setNo(int no) {
-		this.no = no;
-	}
-
-	public String getName() {
-		return this.name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getScore() {
-		return this.score;
-	}
-
-	public void setScore(int score) {
-		this.score = score;
-	}
-
-	public String getMajor() {
-		return this.major;
-	}
-
-	public void setMajor(String major) {
-		this.major = major;
-	}
-
-	@Override
-	public String toString() {
-		return getNo() +
-			"\t" + getName() +
-			"\t" + getScore() +
-			"\t" + getMajor()
-			;
-	}
-	
-
-}
-
 public class Q03 {
 
 	public static void main(String[] args) {
-		String filePath = "./src/ProgrammingTest1/student.txt";
+		String filePath = "./src/ProgrammingTest1/Q03/student.txt";
 		List<Student> studentList = new ArrayList<Student>();
 		List<ArrayList<String>> stoken = new ArrayList<>();
 		try(
