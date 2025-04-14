@@ -1,4 +1,4 @@
-package ProgrammingTest1.Q03;
+package ProgrammingTest1.Ex03;
 
 class Student {
 	int no;

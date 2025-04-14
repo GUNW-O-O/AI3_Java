@@ -1,4 +1,4 @@
-package ProgrammingTest1.Q03;
+package ProgrammingTest1.Ex03;
 	
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,10 +7,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Q03 {
+public class Manager {
 
 	public static void main(String[] args) {
-		String filePath = "./src/ProgrammingTest1/Q03/student.txt";
+		String filePath = "Java\\src\\ProgrammingTest1\\Ex03\\student.txt";
 		List<Student> studentList = new ArrayList<Student>();
 		List<ArrayList<String>> stoken = new ArrayList<>();
 		try(

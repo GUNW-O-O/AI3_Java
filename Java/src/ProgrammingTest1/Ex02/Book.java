@@ -1,4 +1,4 @@
-package ProgrammingTest1.Q02;
+package ProgrammingTest1.Ex02;
 
 import java.util.ArrayList;
 
