@@ -1,4 +1,4 @@
-package 단축키;
+package tes;
 
 import java.util.Scanner;
 
